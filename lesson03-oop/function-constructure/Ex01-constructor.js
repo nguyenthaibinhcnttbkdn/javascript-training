@@ -24,4 +24,10 @@ ThreeNumbers.prototype.sub = function() {
     console.log('sub of three number: ' + (this.a - this.b - this.c));
 }
 myNumber.sub();
+myNumber.mul = function() {
+    console.log(this.a * this.b * this.c);
+}
+myNumber.mul();
+
+
 
